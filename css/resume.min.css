@@ -200,7 +200,10 @@ section.resume-section .resume-item .resume-date {
     padding-bottom: 3rem!important;
 }
 }.bg-primary {
-    background-color: #0af!important;
+    background-image: linear-gradient(to right, #0af, transparent 90%)!important;
+    -moz-box-shadow: 4px 4px 7px rgba(0,170,255,.5);
+	-webkit-box-shadow: 4px 4px 7px rgba(0,170,255,.5);
+	box-shadow: 4px 4px 7px rgba(0,170,255,.5);
 }
 .text-primary {
     color: #448aff!important;
@@ -425,3 +428,6 @@ a:active, a:focus, a:hover {
 ul {
   list-style-type: none;
 }
+
+/*UFO*/
+
