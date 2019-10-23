@@ -227,9 +227,8 @@ a:active, a:focus, a:hover {
 .avocado {
   overflow: inherit;
   max-height: 30vh;
-  position: absolute;
-  padding-left: 250px;
-  padding-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 .avocado__body {
   animation: body 2s infinite;
